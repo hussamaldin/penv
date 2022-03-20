@@ -151,7 +151,7 @@
 export default {
     data(){
         return{
-            img:require('../assets/dola.jpg'),
+            img:require('../assets/karan.jpg'),
             img1:require('../assets/dola.jpg'),
             img2:require('../assets/jakop.jpg'),
             img3:require('../assets/folca.jpg'),

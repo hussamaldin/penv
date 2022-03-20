@@ -148,7 +148,7 @@
 export default {
     data(){
         return{
-          img:require('../assets/bgg.jpg')
+          img:require('../assets/karan.jpg')
         }
     }
 }

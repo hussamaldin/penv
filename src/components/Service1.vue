@@ -200,7 +200,7 @@
 export default {
     data(){
         return{
-         img:require('../assets/dola.jpg'),
+         img:require('../assets/karan.jpg'),
          img2: require("../assets/pc.jpg"),
         }
     }

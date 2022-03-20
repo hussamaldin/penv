@@ -123,7 +123,7 @@ export default {
     data(){
         return{
             vid:require('../assets/Beach.mp4'),
-            img:require('../assets/dola.jpg'),
+            img:require('../assets/karan.jpg'),
             img1:require('../assets/dola.jpg'),
         }
     }

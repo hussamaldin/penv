@@ -10,7 +10,7 @@
           </div>
 
           <div class="flex flex-row flex-wrap justify-center">
-              <div class="w-[48%] h-[400px] flex justify-center relative transition-all overflow-hidden m-2 group" v-for="blog in filterd" :key="blog.id"  :style='{ backgroundImage: `url(${blog.img})` }'>
+              <div class="w-[48%] h-[400px]  animate__animated animate__fadeIn animate__slow flex justify-center relative transition-all overflow-hidden m-2 group" v-for="blog in filterd" :key="blog.id"  :style='{ backgroundImage: `url(${blog.img})` }'>
                   <div class="w-[90%] absolute duration-500 group-hover:bottom-[5px] bottom-[-200px] h-[150px] p-2 flex flex-col space-y-2 justify-center bg-yellow-600 items-center">
                       <div class="text-2xl font-bold">{{blog.name}}</div>
                       <div class="font-bold text-lg">{{blog.status}}</div>
@@ -33,7 +33,7 @@
 export default {
     data(){
         return{
-            img:require('../assets/dola.jpg'),
+            img:require('../assets/karan.jpg'),
            active:'All',
            afblog:null,
            elem: [
