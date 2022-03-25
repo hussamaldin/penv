@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white border-b border-gray-200 z-30 shadow absolute top-0 left-0 w-full">
+    <div class="bg-white border-b border-gray-200 z-30 shadow fixed top-0 left-0 w-full">
         <div class="px-4 py-4">
         <div class="flex items-center justify-between">
            <div class="flex items-center justify-start">
@@ -9,7 +9,7 @@
                    <div class="border hidden group-hover:block border-red-500 w-[160px] absolute top-[40px] left-[20px] bg-white text-sm  px-3">
                        <ul class="">
                            <li class="py-2"><a class="cursor-pointer hover:underline font-bold">Middle East</a></li>
-                           <li class="py-2"><a class=" cursor-pointer hover:underline font-bold">Africa</a></li>
+                           <li class="py-2"><a class="cursor-pointer hover:underline font-bold">Africa</a></li>
                            <li class="py-2"><a class="cursor-pointer hover:underline font-bold">Asia</a></li>
                            <li class="py-2"><a class="cursor-pointer hover:underline font-bold">Europe</a></li>
                            <li class="py-2"><a class="cursor-pointer hover:underline font-bold">Us & Canda</a></li>
@@ -28,6 +28,7 @@
            </div>
            <div class="flex items-center justify-end flex-row">
                <div><span class="mx-4"><i class="fa fa-search text-xl hover:text-red-500 font-bold"></i></span></div>
+               <div><span><a href="/signup" class="text-sm font-bold hover:underline ml-1 p-4">Signup</a></span></div>
            </div>
         </div>
         </div>

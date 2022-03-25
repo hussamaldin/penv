@@ -43,23 +43,23 @@ export default {
           let s4=document.getElementById("s4").getBoundingClientRect().top
           let s5=document.getElementById("s5").getBoundingClientRect().top
           console.log(s1)
-          if(page >=s1){
+          if(page-450 >=s1){
               document.getElementById("s1").classList.remove("w-0")
               document.getElementById("s1").classList.add("animate__animated", "animate__fadeInLeft", "animate__slow","w-[200px]")
           }
-          if(page >=s2){
+          if(page-450 >=s2){
               document.getElementById("s2").classList.remove("w-0")
               document.getElementById("s2").classList.add("animate__animated" ,"animate__fadeInLeft" ,"animate__slow","w-[200px]")
           }
-          if(page >=s3){
+          if(page-450 >=s3){
               document.getElementById("s3").classList.remove("w-0")
               document.getElementById("s3").classList.add("animate__animated" ,"animate__fadeInLeft" ,"animate__slow","w-[200px]")
           }
-          if(page >=s4){
+          if(page-450 >=s4){
               document.getElementById("s4").classList.remove("w-0")
               document.getElementById("s4").classList.add("animate__animated" ,"animate__fadeInLeft" ,"animate__slow","w-[200px]")
           }
-          if(page >=s5){
+          if(page-450 >=s5){
               document.getElementById("s5").classList.remove("w-0")
               document.getElementById("s5").classList.add("animate__animated" ,"animate__fadeInLeft" ,"animate__slow","w-[200px]")
               window.removeEventListener('scroll', this.onLoaded);

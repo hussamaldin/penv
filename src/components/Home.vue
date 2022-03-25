@@ -290,7 +290,7 @@ export default {
         },
         {
           id: "8",
-          img: require("../assets/japan.jpg"),
+          img: require("../assets/sign.jpg"),
           name:"bikham dowe",
           disc:"ojwe oijoe iwfjoie wfjoiwe fjiowejf jhgjhgj hgjh wejfenjf wweefnwefnw wewefnnefw ffwunf wefiweef eefnunwf weeufnnwef uf wfuweef wefu"
         },
@@ -309,7 +309,7 @@ export default {
      s1.classList.remove("w-0")
      s1.classList.add("animate__animated", "animate__fadeInLeft", "animate__slow","w-[560px]")
     this.onWindowLoad();
-      }, 1000);
+      }, 1500);
 
 
   },

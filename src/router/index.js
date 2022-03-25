@@ -10,11 +10,17 @@ import Blog from "../components/Blog.vue";
 import Contact from "../components/Contact.vue";
 import Map from "../components/Map.vue";
 import Elements from "../components/Elements.vue";
+import myCollection from "../components/myCollection.vue";
 const routes = [
   {
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/coll",
+    name: "myCollection",
+    component: myCollection,
   },
   {
     path:"/about1",
